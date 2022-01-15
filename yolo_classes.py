@@ -1,4 +1,4 @@
-""yolo_classes.py
+"""yolo_classes.py
 NOTE: Number of YOLO COCO output classes differs from SSD COCO models.
 """
 
