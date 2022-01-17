@@ -328,4 +328,4 @@ def read_class_names(class_file_name):
 
 
 yolo = Load_Yolo_model()
-detect_image(yolo, image_path, "./gohar_rep/drone.jpg", input_size=YOLO_INPUT_SIZE, show=True, rectangle_colors=(255,0,0))
+detect_image(yolo, image_path, "./gohar_rep/drone_pred.jpg", input_size=YOLO_INPUT_SIZE, show=True, rectangle_colors=(255,0,0))
