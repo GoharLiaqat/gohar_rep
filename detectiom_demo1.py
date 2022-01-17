@@ -50,7 +50,7 @@ def image_preprocess(image, target_size, gt_boxes=None):
 def Load_Yolo_model():
     gpus = tf.config.experimental.list_physical_devices('GPU')
     if len(gpus) > 0:
-        print(f'GPUs {gpus}')
+        print("GPUs" {gpus})
         try: tf.config.experimental.set_memory_growth(gpus[0], True)
         except RuntimeError: pass
         
